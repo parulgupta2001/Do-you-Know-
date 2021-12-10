@@ -20,3 +20,29 @@ function play(question,answer) {
   console.log("---------")
 }
 }
+
+
+var questionOne = {
+    question : "What is my favorite colour?",
+    answer : "blue"
+  }
+ 
+  var questionTwo = {
+    question : "Which season I love the most?",
+    answer : "winter"
+  }
+ 
+  var questionThree = {
+    question : "My dream is to visit which place?",
+    answer : "switzerland" 
+  }
+ 
+ 
+  var questions = [questionOne,questionTwo,questionThree]; {
+  for (var i=0; i<questions.length; i++)
+    play(questions[i].question,questions[i].answer)
+  }
+  
+ 
+  console.log("YAY! You SCORED: ", score)
+ 
